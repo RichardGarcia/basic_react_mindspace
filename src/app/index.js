@@ -2,13 +2,24 @@
 import React from "react";
 import {render} from "react-dom"
 
+import {Header} from "./components/Header";
+import {Home} from "./components/Home";
+
 class App extends React.Component {
   render() {
     return(
       <div className="container">
         <div className="row">
           <div className="col-xs-12">
-            <h1>Hello World React!</h1>
+            <Header/>
+          </div>
+        </div>
+        
+        <p>paragraph from index.js..</p>
+
+        <div className="row">
+          <div className="col-xs-12">
+            <Home/>
           </div>
         </div>
       </div>
