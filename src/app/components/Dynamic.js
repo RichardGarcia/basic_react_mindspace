@@ -7,6 +7,7 @@ export class Dynamic extends React.Component {
 
     return (
       <div>
+        <hr/>
         <p>from Dynamic Component - Outputting dynamic Data</p>
         <p>{string01}</p>
         <p>js ternary, 5 == 2 ? "yes" : "no" =  {5 == 2 ? "yes" : "no"}</p>
