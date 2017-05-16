@@ -1,6 +1,6 @@
 // console.log("it works!!");
 import React from "react";
-import {render} from "react-dom"
+import {render} from "react-dom";
 
 import {Header} from "./components/Header";
 import {Home} from "./components/Home";
@@ -13,7 +13,7 @@ class App extends React.Component {
     var user = {
       name: "Markus Mark",
       hobbies: ["Badminton", "Reading", "Eating"]
-    }
+    };
 
     return(
       <div className="container">
@@ -40,7 +40,9 @@ class App extends React.Component {
 
         <div className="row">
           <div className="col-xs-12">
-            <Propssample name={"Buddy Zabala"} age={27} user={user.name}/>
+            <Propssample name={"Buddy Zabala"} age={27} user={user}>
+              <p>this is a paragraph</p>
+            </Propssample>
           </div>
         </div>
 
