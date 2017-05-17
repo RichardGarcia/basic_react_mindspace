@@ -6,6 +6,7 @@ import {Header} from "./components/Header";
 import {Home} from "./components/Home";
 import {Dynamic} from "./components/Dynamic";
 import {Propssample} from "./components/Propssample";
+import {Eventssample} from "./components/Eventssample";
 
 class App extends React.Component {
   render() {
@@ -34,6 +35,12 @@ class App extends React.Component {
 
         <div className="row">
           <div className="col-xs-12">
+            <Eventssample name={"Markus Adoro"} initialAge={27}/>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-xs-12">
             <Dynamic/>
           </div>
         </div>
@@ -41,7 +48,7 @@ class App extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <Propssample name={"Buddy Zabala"} age={27} user={user}>
-              <p>this is a paragraph</p>
+              <p>this is a paragraph (child)</p>
             </Propssample>
           </div>
         </div>
