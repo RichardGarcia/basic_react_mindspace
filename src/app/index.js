@@ -21,7 +21,7 @@ class App extends React.Component {
 
         <div className="row">
           <div className="col-xs-12">
-            <Header/>
+            <Header homeLink={"Home"}/>
           </div>
         </div>
         
