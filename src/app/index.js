@@ -7,8 +7,16 @@ import {Home} from "./components/Home";
 import {Dynamic} from "./components/Dynamic";
 import {Propssample} from "./components/Propssample";
 import {Eventssample} from "./components/Eventssample";
+import {Parentchild} from "./components/Parentchild";
 
 class App extends React.Component {
+
+  // method
+  onGreet() {
+    // alert('hello!');
+    console.log('say Hello!');
+  }
+
   render() {
 
     var user = {
@@ -30,6 +38,12 @@ class App extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <Home/>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-xs-12">
+            <Parentchild fullName={"Puto Tayo Dyan"} greet={this.onGreet}/>
           </div>
         </div>
 
