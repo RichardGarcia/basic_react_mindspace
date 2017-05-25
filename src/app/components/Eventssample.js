@@ -10,6 +10,7 @@ export class Eventssample extends React.Component {
     }
   }
 
+  // method
   onAddAge() {
     this.setState({
       age: this.state.age + 2
