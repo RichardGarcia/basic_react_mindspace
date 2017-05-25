@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export class Propssample extends React.Component {
   render() {
 
-    console.log(this.props);
+    // console.log(this.props);
 
     return (
       <div>
@@ -16,9 +16,9 @@ export class Propssample extends React.Component {
           <h4>{this.props.user.objName}'s  Hobbies (from Array):</h4>
           <ul>
             {this.props.user.hobbies.map((hobby, keyid) => <li key={keyid}>{hobby}</li>)}
+          </ul>
             <hr/>
             {this.props.children}
-          </ul>
         </div>
       </div>
     );
