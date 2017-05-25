@@ -12,7 +12,7 @@ class App extends React.Component {
   render() {
 
     var user = {
-      name: "Markus Mark",
+      objName: "Markus Mark",
       hobbies: ["Badminton", "Reading", "Eating"]
     };
 
