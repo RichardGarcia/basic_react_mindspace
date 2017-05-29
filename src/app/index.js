@@ -43,7 +43,7 @@ class App extends React.Component {
 
         <div className="row">
           <div className="col-xs-12">
-            <Parentchild fullName={"Puto Tayo Dyan"} greet={this.onGreet}/>
+            <Parentchild fullName={"John Doe"} greet={this.onGreet}/>
           </div>
         </div>
 
